@@ -1,0 +1,48 @@
+create table Permiso (
+	Num_Permiso INT primary key,
+	Nombre_Permiso VARCHAR(50)
+);
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (1, 'Ver canal');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (2, 'Gestionar canal');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (3, 'Gestionar rol');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (4, 'Crear expresion');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (5, 'Gestionar expresion');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (6, 'Ver registro');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (7, 'Gestionar webhooks');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (8, 'Gestionar servidor');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (9, 'Crear invitación');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (10, 'Cambiar apodo');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (11, 'Gestionar apodos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (12, 'Expulsar miembros');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (13, 'Banear miembros');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (14, 'Aislar miembros');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (15, 'Enviar mensajes');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (16, 'Enviar mensajes en hilos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (17, 'Crear hilos públicos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (18, 'Crear hilos privados');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (19, 'Insertar enlaces');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (20, 'Adjuntar archivos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (21, 'Añadir reacciones');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (22, 'Usar emojis externos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (23, 'Mencionar');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (24, 'Gestionar mensajes');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (25, 'Gestionar hilos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (26, 'Leer el historial de mensajes');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (27, 'Enviar mensajes de texto a voz');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (28, 'Usar comandos de aplicaciones');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (29, 'Enviar mensajes de voz');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (30, 'Conectar');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (31, 'Hablar');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (32, 'Vídeo');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (33, 'Usar actividades');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (34, 'Usar panel de sonidos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (35, 'Usar sonidos externos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (36, 'Usar actividad de voz');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (37, 'Prioridad de palabra');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (38, 'Silenciar miembros');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (39, 'Ensordecer miembros');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (40, 'Mover miembros');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (41, 'Establecer un estado del canal de voz');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (42, 'Crear eventos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (43, 'Gestionar eventos');
+insert into Permiso (Num_Permiso, Nombre_Permiso) values (44, 'Administrador');
